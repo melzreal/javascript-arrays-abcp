@@ -34,3 +34,8 @@ function removeElementFromBeginningOfArray(array){
   var newArry = array.slice[1];
   return newArry;
 }
+
+function removeElementFromBeginningOfArray(array){
+  var newArry = array.pop();
+  return newArry;
+}
